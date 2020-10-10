@@ -32,18 +32,18 @@ public class FrogMovement : MonoBehaviour
     private Vector3 _previousPad;
     private Vector3 _currentPad;
 
-    private Animator _anim; // the frogs animator
-    private Rigidbody2D _rb; // the frogs rigidbody (for physics and collisions)
-    private Collider2D _tongueCollider; // the tongue collider on the frog
+    private Animator _anim;
+    private Rigidbody2D _rb;
+    private Collider2D _tongueCollider; 
 
-    private Direction _lastMovement; // the last direction the frog moved in
+    private Direction _lastMovement;
 
-    private float _timer = 0; // timer current value
-    private bool _timerEnded; // keeps track of if timer between movements has completed
+    private float _timer = 0;
+    private bool _timerEnded;
 
-    private float _distanceFromFly = 0; // frog's current distance from fly
-
-    // Start is called before the first frame update
+    private float _distanceFromFly = 0;
+    
+    
     void Start()
     {
         // get the frog's animator and rigidbody
