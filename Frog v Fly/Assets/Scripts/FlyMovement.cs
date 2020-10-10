@@ -3,10 +3,6 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using Random = UnityEngine.Random;
-
-// Code found at http://findnerd.com/list/view/Random-movement-of-a-sprite-in-2D/22107/
-// Additional code and comments added
-
 public class FlyMovement : MonoBehaviour
 {
     [Header("Fly Variables")]
@@ -33,16 +29,16 @@ public class FlyMovement : MonoBehaviour
     }
     void Update()
     {
-        _currentPos = transform.position;//current position of gameObject
+        _currentPos = transform.position;
         if(_play)
-        { //calculating direction
+        { 
             currentDirection = _direction - _currentPos;  
     
             currentDirection.z = 0;
             currentDirection.Normalize ();
             _play = false;
         }    
-        Vector3 target = currentDirection * moveSpeed + _currentPos;  //calculating target position
+        Vector3 target = currentDirection * moveSpeed + _currentPos;  
         transform.position = Vector3.Lerp (_currentPos, target, Time.deltaTime);//movement from current position to target position
         _targetAngle = Mathf.Atan2(currentDirection.y, currentDirection.x) * Mathf.Rad2Deg - 90; //angle of rotation of gameobject
         transform.rotation = Quaternion.Slerp (transform.rotation, Quaternion.Euler (0, 0, _targetAngle), turnSpeed * Time.deltaTime); //rotation from current _direction to target _direction
