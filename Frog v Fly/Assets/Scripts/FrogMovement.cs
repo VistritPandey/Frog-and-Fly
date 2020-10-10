@@ -46,13 +46,12 @@ public class FrogMovement : MonoBehaviour
     
     void Start()
     {
-        // get the frog's animator and rigidbody
+        
         _anim = GetComponent<Animator>();
         _rb = GetComponent<Rigidbody2D>();
         _tongueCollider = GetComponentInChildren<Collider2D>();
     }
 
-    // Update is called once per frame
     void Update()
     {
         
@@ -76,7 +75,6 @@ public class FrogMovement : MonoBehaviour
     void Move(Direction dir)
     {
         
-        // move the frog in the direction given by the method argument
         switch (dir)
         {
             case Direction.Up:
@@ -93,13 +91,11 @@ public class FrogMovement : MonoBehaviour
                 break;
         }
         
-        // generate a raycast of length 3 that looks down the frog's nose
         Vector3 forward = transform.TransformDirection(Vector2.up) * 3;
         RaycastHit2D hit = Physics2D.Raycast(transform.position, forward);
-        Debug.DrawRay(transform.position, forward, Color.white); //uncomment this to see the raycast in the scene
+        Debug.DrawRay(transform.position, forward, Color.white);
 
         
-        // if the raycast hits a lilypad collider, move the frog to that lilypad
         if (hit.collider.gameObject.CompareTag("LilyPad"))
         {
             // play the frog's hop animation
