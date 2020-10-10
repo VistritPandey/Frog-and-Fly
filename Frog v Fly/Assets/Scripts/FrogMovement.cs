@@ -98,7 +98,7 @@ public class FrogMovement : MonoBehaviour
         
         if (hit.collider.gameObject.CompareTag("LilyPad"))
         {
-            // play the frog's hop animation
+            
             _anim.Play("frog_hop", 0, 0);
             
             transform.position = hit.collider.gameObject.transform.position;
@@ -131,7 +131,7 @@ public class FrogMovement : MonoBehaviour
     {
         Vector3 directionVector = transform.position - simulationManager.fly.transform.position;
 
-        // get absolute values of x and y to find see if the fly is farther horizontally or vertically
+        
         float xDir = Mathf.Abs(directionVector.x);
         float yDir = Mathf.Abs(directionVector.y);
 
@@ -160,13 +160,13 @@ public class FrogMovement : MonoBehaviour
         if (_timer >= timeBetweenHops)
         {
             _timer = 0;
-            return true; //max reached - waited x - seconds
+            return true; 
         }
  
         return false;
     }
 
-    // if the fly enters the frog's collider, catch the fly
+    
     private void OnTriggerEnter2D(Collider2D col)
     {
         if (col.gameObject.CompareTag("Fly"))
