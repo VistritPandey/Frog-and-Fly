@@ -1,0 +1,223 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="fef84085-ea26-4539-a8ed-beb476312b8f" name="Default Changelist" comment="" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/Assets/FrogMovement.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/MainMenu.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/FlyMovement.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Lilypad.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/GameManager.cs" root0="FORCE_HIGHLIGHTING" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/Assets/MainMenu.cs" />
+        <option value="$PROJECT_DIR$/Assets/FlyMovement.cs" />
+        <option value="$PROJECT_DIR$/Assets/FrogMovement.cs" />
+        <option value="$PROJECT_DIR$/Assets/GameManager.cs" />
+        <option value="$PROJECT_DIR$/Assets/Lilypad.cs" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectId" id="1TR41UVLI1mLajurKvvC4DcxKCe" />
+  <component name="PropertiesComponent">
+    <property name="Discover.Launch.Via.Unity" value="true" />
+    <property name="Rider.DefaultBreakpoints.AreToggled" value="true" />
+    <property name="Rider.ProjectViewActivator.IsNotFirstRun" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="Attach to Unity Editor.Attach to Unity Editor &amp; Play">
+    <configuration name="Attach to Unity Editor &amp; Play" type="UNITY_DEBUG_RUN_CONFIGURATION" factoryName="UNITY_ATTACH_AND_PLAY" show_console_on_std_err="false" show_console_on_std_out="false" port="50000" address="localhost" pid="37036">
+      <option name="allowRunningInParallel" value="false" />
+      <option name="listenPortForConnections" value="false" />
+      <option name="pid" value="37036" />
+      <option name="userSelectedPid" value="false" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Attach to Unity Editor" type="UNITY_DEBUG_RUN_CONFIGURATION" factoryName="Unity Debug" show_console_on_std_err="false" show_console_on_std_out="false" port="50000" address="localhost">
+      <option name="allowRunningInParallel" value="false" />
+      <option name="listenPortForConnections" value="false" />
+      <option name="pid" />
+      <option name="userSelectedPid" value="false" />
+      <method v="2" />
+    </configuration>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="fef84085-ea26-4539-a8ed-beb476312b8f" name="Default Changelist" comment="" />
+      <created>1573409360108</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1573409360108</updated>
+      <workItem from="1573409365243" duration="28007000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="UnityProjectConfiguration" hasMinimizedUI="true" />
+  <component name="UnityUnitTestConfiguration" currentTestLauncher="EditMode" />
+  <component name="VcsManagerConfiguration">
+    <option name="LOCAL_CHANGES_DETAILS_PREVIEW_SHOWN" value="true" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state width="1493" height="277" key="GridCell.Tab.0.bottom" />
+    <state width="1493" height="277" key="GridCell.Tab.0.bottom/1920.1080" />
+    <state width="1493" height="277" key="GridCell.Tab.0.center" />
+    <state width="1493" height="277" key="GridCell.Tab.0.center/1920.1080" />
+    <state width="1493" height="277" key="GridCell.Tab.0.left" />
+    <state width="1493" height="277" key="GridCell.Tab.0.left/1920.1080" />
+    <state width="1493" height="277" key="GridCell.Tab.0.right" />
+    <state width="1493" height="277" key="GridCell.Tab.0.right/1920.1080" />
+    <state width="1493" height="277" key="GridCell.Tab.1.bottom" />
+    <state width="1493" height="277" key="GridCell.Tab.1.bottom/1920.1080" />
+    <state width="1493" height="277" key="GridCell.Tab.1.center" />
+    <state width="1493" height="277" key="GridCell.Tab.1.center/1920.1080" />
+    <state width="1493" height="277" key="GridCell.Tab.1.left" />
+    <state width="1493" height="277" key="GridCell.Tab.1.left/1920.1080" />
+    <state width="1493" height="277" key="GridCell.Tab.1.right" />
+    <state width="1493" height="277" key="GridCell.Tab.1.right/1920.1080" />
+    <state width="1493" height="277" key="GridCell.Tab.2.bottom" />
+    <state width="1493" height="277" key="GridCell.Tab.2.bottom/1920.1080" />
+    <state width="1493" height="277" key="GridCell.Tab.2.center" />
+    <state width="1493" height="277" key="GridCell.Tab.2.center/1920.1080" />
+    <state width="1493" height="277" key="GridCell.Tab.2.left" />
+    <state width="1493" height="277" key="GridCell.Tab.2.left/1920.1080" />
+    <state width="1493" height="277" key="GridCell.Tab.2.right" />
+    <state width="1493" height="277" key="GridCell.Tab.2.right/1920.1080" />
+    <state width="1493" height="277" key="GridCell.Tab.3.bottom" />
+    <state width="1493" height="277" key="GridCell.Tab.3.bottom/1920.1080" />
+    <state width="1493" height="277" key="GridCell.Tab.3.center" />
+    <state width="1493" height="277" key="GridCell.Tab.3.center/1920.1080" />
+    <state width="1493" height="277" key="GridCell.Tab.3.left" />
+    <state width="1493" height="277" key="GridCell.Tab.3.left/1920.1080" />
+    <state width="1493" height="277" key="GridCell.Tab.3.right" />
+    <state width="1493" height="277" key="GridCell.Tab.3.right/1920.1080" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <breakpoint enabled="true" suspend="NONE" type="DotNet Exception Breakpoints">
+          <properties exception="System.Threading.ThreadAbortException" displayValue="System.Threading.ThreadAbortException" />
+          <option name="timeStamp" value="1" />
+        </breakpoint>
+        <line-breakpoint enabled="true" type="DotNet Breakpoints">
+          <url>file://$PROJECT_DIR$/Assets/FrogMovement.cs</url>
+          <line>86</line>
+          <properties documentPath="$PROJECT_DIR$/Assets/FrogMovement.cs" initialLine="87">
+            <startOffsets>
+              <option value="2691" />
+            </startOffsets>
+            <endOffsets>
+              <option value="2754" />
+            </endOffsets>
+          </properties>
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="DotNet Breakpoints">
+          <url>file://$PROJECT_DIR$/Assets/FrogMovement.cs</url>
+          <line>87</line>
+          <properties documentPath="$PROJECT_DIR$/Assets/FrogMovement.cs" initialLine="88">
+            <startOffsets>
+              <option value="2763" />
+            </startOffsets>
+            <endOffsets>
+              <option value="2829" />
+            </endOffsets>
+          </properties>
+          <option name="timeStamp" value="3" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="DotNet Breakpoints">
+          <url>file://$PROJECT_DIR$/Assets/FrogMovement.cs</url>
+          <line>88</line>
+          <properties documentPath="$PROJECT_DIR$/Assets/FrogMovement.cs" initialLine="89">
+            <startOffsets>
+              <option value="2838" />
+            </startOffsets>
+            <endOffsets>
+              <option value="2943" />
+            </endOffsets>
+          </properties>
+          <option name="timeStamp" value="4" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="DotNet Breakpoints">
+          <url>file://$PROJECT_DIR$/Assets/FrogMovement.cs</url>
+          <line>93</line>
+          <properties documentPath="$PROJECT_DIR$/Assets/FrogMovement.cs" initialLine="94">
+            <startOffsets>
+              <option value="3107" />
+            </startOffsets>
+            <endOffsets>
+              <option value="3135" />
+            </endOffsets>
+          </properties>
+          <option name="timeStamp" value="5" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="DotNet Breakpoints">
+          <url>file://$PROJECT_DIR$/Assets/FrogMovement.cs</url>
+          <line>95</line>
+          <properties documentPath="$PROJECT_DIR$/Assets/FrogMovement.cs" initialLine="96">
+            <startOffsets>
+              <option value="3225" />
+            </startOffsets>
+            <endOffsets>
+              <option value="3257" />
+            </endOffsets>
+          </properties>
+          <option name="timeStamp" value="6" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="DotNet Breakpoints">
+          <url>file://$PROJECT_DIR$/Assets/FrogMovement.cs</url>
+          <line>94</line>
+          <properties documentPath="$PROJECT_DIR$/Assets/FrogMovement.cs" initialLine="95">
+            <startOffsets>
+              <option value="3148" />
+            </startOffsets>
+            <endOffsets>
+              <option value="3212" />
+            </endOffsets>
+          </properties>
+          <option name="timeStamp" value="7" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="DotNet Breakpoints">
+          <url>file://$PROJECT_DIR$/Assets/FrogMovement.cs</url>
+          <line>99</line>
+          <properties documentPath="$PROJECT_DIR$/Assets/FrogMovement.cs" initialLine="100">
+            <startOffsets>
+              <option value="3326" />
+            </startOffsets>
+            <endOffsets>
+              <option value="3348" />
+            </endOffsets>
+          </properties>
+          <option name="timeStamp" value="8" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+</project>
