@@ -25,7 +25,7 @@ public class FlyMovement : MonoBehaviour
     }
     void Start1(){
         _play = true;
-        _direction = new Vector3(Random.Range(-3.0f,3.0f),Random.Range(-4.0f,4.0f),0); //random position in x and y
+        _direction = new Vector3(Random.Range(-3.0f,3.0f),Random.Range(-4.0f,4.0f),0);
     }
     void Update()
     {
@@ -39,25 +39,22 @@ public class FlyMovement : MonoBehaviour
             _play = false;
         }    
         Vector3 target = currentDirection * moveSpeed + _currentPos;  
-        transform.position = Vector3.Lerp (_currentPos, target, Time.deltaTime);//movement from current position to target position
-        _targetAngle = Mathf.Atan2(currentDirection.y, currentDirection.x) * Mathf.Rad2Deg - 90; //angle of rotation of gameobject
-        transform.rotation = Quaternion.Slerp (transform.rotation, Quaternion.Euler (0, 0, _targetAngle), turnSpeed * Time.deltaTime); //rotation from current _direction to target _direction
+        transform.position = Vector3.Lerp (_currentPos, target, Time.deltaTime);
+        _targetAngle = Mathf.Atan2(currentDirection.y, currentDirection.x) * Mathf.Rad2Deg - 90; 
+        transform.rotation = Quaternion.Slerp (transform.rotation, Quaternion.Euler (0, 0, _targetAngle), turnSpeed * Time.deltaTime); 
     }
     void OnCollisionEnter2D(Collision2D col)
     {
         
         if (col.gameObject.CompareTag("Border"))
         {
-            CancelInvoke ();//stop call to start1 method
-            _direction = new Vector3 (Random.Range (-3.0f, 3.0f), Random.Range (-4.0f, 4.0f), 0); //again provide random position in x and y
+            CancelInvoke ();
+            _direction = new Vector3 (Random.Range (-3.0f, 3.0f), Random.Range (-4.0f, 4.0f), 0); 
             _play = true;            
         }
-
     }
-
     void OnCollisionExit2D(Collision2D col)
     {
         InvokeRepeating ("Start1", 2f, 5f);
     }
 }
-
