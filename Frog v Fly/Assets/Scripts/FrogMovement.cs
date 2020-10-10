@@ -173,12 +173,9 @@ public class FrogMovement : MonoBehaviour
     // if the fly enters the frog's collider, catch the fly
     private void OnTriggerEnter2D(Collider2D col)
     {
-        // check if object colliding is the fly
         if (col.gameObject.CompareTag("Fly"))
         {
-            // destroy the fly object
             Destroy(col.gameObject);
-            // tell the sim manager that there's no fly currently active
             simulationManager.flyActive = false;
         }
     }
