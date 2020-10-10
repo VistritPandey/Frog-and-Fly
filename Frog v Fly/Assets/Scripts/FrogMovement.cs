@@ -1,4 +1,4 @@
-﻿using System;
+using System;
 using System.Collections;
 using System.Collections.Generic;
 using System.Numerics;
@@ -29,8 +29,8 @@ public class FrogMovement : MonoBehaviour
     [Header("Simulation Manager")]
     public SimulationManager simulationManager;
 
-    private Vector3 _previousPad; // the position of the previous lily pad the frog is on
-    private Vector3 _currentPad; // the position of the lily pad the frog is currently on
+    private Vector3 _previousPad;
+    private Vector3 _currentPad;
 
     private Animator _anim; // the frogs animator
     private Rigidbody2D _rb; // the frogs rigidbody (for physics and collisions)
